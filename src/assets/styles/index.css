@@ -1,0 +1,115 @@
+/*!
+=========================================================
+* Material Tailwind Kit React - v1.1.0
+=========================================================
+* Product Page: https://www.creative-tim.com/product/material-tailwind-kit-react
+* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/material-tailwind-kit-react/blob/main/LICENSE.md)
+* Coded by Creative Tim
+=========================================================
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
+.container-login {
+  margin: 14rem;
+  margin-left: 34rem;
+}
+.d-flex {
+  display: flex;
+}
+.item-center {
+  align-items: center;
+}
+.message {
+  font-size: 14px;
+  color: #12284c;
+  font-weight: 500;
+  padding-top: 2rem;
+}
+.login form {
+  grid-column: 2;
+  grid-row: 2;
+  display: grid;
+  grid-gap: 10px;
+  margin: auto 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 32px 64px rgba(0, 0, 0, 0.2);
+}
+.login h2 {
+  margin-bottom: 5px;
+  text-align: center;
+  text-shadow: 0 4px 16px #fff;
+  font-size: 30px;
+  font-weight: 100;
+}
+.fieldset {
+  margin: 0;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.login label {
+  text-align: left;
+  padding-bottom: 2px;
+}
+.login input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login button {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.card {
+  position: relative;
+  margin: 0.5rem 2rem 1rem 0;
+  background-color: #fff;
+  -webkit-transition: -webkit-box-shadow 0.25s;
+  transition: -webkit-box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s, -webkit-box-shadow 0.25s;
+  border-radius: 2px;
+}
+.card-image {
+  position: relative;
+}
+
+.card-image img {
+  display: block;
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 70%;
+}
+
+img {
+  border-style: none;
+}
+
+.card-content {
+  padding: 24px;
+  border-radius: 0 0 2px 2px;
+}
+.card-description {
+  margin: 0;
+  width: 70%;
+}
+
+.card-title {
+  display: block;
+  line-height: 32px;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 300;
+}
